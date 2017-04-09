@@ -2,8 +2,9 @@ package com.eapple.lzy.weathertest;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.BaseAdapter;
 
-public class MainActivity extends Activity {
+public class MainActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
