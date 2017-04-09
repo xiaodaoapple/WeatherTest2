@@ -8,7 +8,7 @@
     	For example:
     	<dbname value="demo" />
     -->
-    <dbname value="demo" />
+    <dbname value="WeatherTest" />
 
     <!--
     	Define the version of your database. Each time you want
@@ -32,6 +32,9 @@
     	</list>
     -->
     <list>
+        <mapping class="com.eapple.lzy.weathertest.db.City" />
+        <mapping class="com.eapple.lzy.weathertest.db.County" />
+        <mapping class="com.eapple.lzy.weathertest.db.Province" />
     </list>
 
     <!--
